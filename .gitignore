@@ -1,0 +1,22 @@
+# API keys
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Data (generated at runtime)
+data/corp_codes/
+data/filings/
+data/reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
