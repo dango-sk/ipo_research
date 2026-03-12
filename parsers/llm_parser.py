@@ -305,10 +305,13 @@ def extract_peer_valuation(html: str) -> dict | None:
     # --- Pass 2: 비교회사 개별 재무 데이터 추출 ---
     # "비교기업의 주요 재무현황" 테이블은 인수인의 의견 섹션 깊은 곳에 있음
     peer_section = _extract_section(html, [
-        "비교기업의 주요 재무현황",  # 가장 정확한 테이블 제목
+        "동종업체와의 재무정보 비교",  # 증권신고서 공통 섹션
+        "비교기업의 주요 재무현황",
         "유사기업 요약 재무 현황",
+        "유사기업의 재무현황",
         "비교기업 현황",
         "유사기업 현황",
+        "동종업체 비교",
     ], max_chars=25000)
 
     # 추가로 "적용 PER" 근처에서 개별 PER 산출 테이블 추출
@@ -374,6 +377,114 @@ def extract_peer_valuation(html: str) -> dict | None:
     if not valuation_summary and not peers:
         print("[LLM Parser] Valuation 섹션 찾지 못함")
         return None
+
+    # --- Pass 3: Peer 재무 데이터 빈 값 보완 ---
+    missing_financials = any(
+        p.get("revenue") is None or p.get("operating_income") is None
+        for p in peers
+    )
+    if peers and missing_financials:
+        peer_names = [p.get("name", "") for p in peers]
+        print(f"[LLM Parser] Peer 재무 데이터 누락 감지 → 보완 추출 중... ({peer_names})")
+
+        # 1차: 표준 키워드로 섹션 탐색
+        fin_compare_section = _extract_section(html, [
+            "동종업체와의 재무정보 비교",
+            "동종업체 비교",
+            "유사회사의 재무현황",
+            "비교회사 재무현황",
+            "요약 재무 현황",
+        ], max_chars=30000)
+
+        # 2차: 표준 키워드로 못 찾으면 peer 이름 + 매출 키워드로 직접 탐색
+        if not fin_compare_section:
+            import re as _re
+            short_name = peer_names[0].replace("(주)", "").replace("㈜", "").strip()[:6]
+            html_lower = html.lower()
+            best_section = ""
+            best_score = 0
+            start_pos = 0
+            while True:
+                idx = html_lower.find(short_name.lower(), start_pos)
+                if idx < 0:
+                    break
+                chunk = html[max(0, idx - 500):min(len(html), idx + 15000)]
+                # 매출액 + 영업이익이 같이 나오는 테이블 찾기
+                has_revenue = "매출" in chunk
+                has_profit = "영업이익" in chunk or "순이익" in chunk
+                table_count = chunk.lower().count("<table")
+                number_count = len(_re.findall(r"\d{3,}", chunk))
+                score = (10 if has_revenue else 0) + (10 if has_profit else 0) + table_count * 3 + number_count
+                if score > best_score and has_revenue and has_profit:
+                    best_score = score
+                    best_section = chunk
+                start_pos = idx + len(short_name)
+            if best_section:
+                fin_compare_section = best_section
+                print(f"[LLM Parser] Peer 이름({short_name}) 기반으로 재무 테이블 발견")
+
+        if fin_compare_section:
+            names_str = ", ".join(peer_names)
+            prompt_fill = f"""아래 증권신고서 HTML에서 비교회사들의 재무 데이터를 찾아서 추출해줘.
+
+대상 회사: {names_str}
+
+각 회사별로 다음 JSON 형식으로:
+{{
+    "name": "회사명 (위 대상 회사 이름과 정확히 일치시켜)",
+    "revenue": 매출액 (원 단위 정수),
+    "operating_income": 영업이익 (원 단위 정수),
+    "net_income": 당기순이익 (원 단위 정수),
+    "total_assets": 자산총계 (원 단위 정수),
+    "total_equity": 자본총계 (원 단위 정수),
+    "market_cap": 시가총액 (원 단위 정수)
+}}
+
+⚠️ 매우 중요:
+- 단위를 반드시 확인! "천원"이면 ×1,000, "백만원"이면 ×1,000,000
+- 테이블에 있는 모든 수치를 빠짐없이 추출
+- 이름이 영어/한글 차이가 있으면 대상 회사 이름에 맞춰서 출력
+
+```json
+[...]
+```"""
+            result = _call_llm(
+                system="증권신고서의 비교회사 재무 테이블에서 수치를 정확히 추출하는 전문가.",
+                user=f"{prompt_fill}\n\n---\n\n{fin_compare_section[:25000]}",
+                max_tokens=4096,
+            )
+            fill_data = _extract_json(result)
+            if fill_data and isinstance(fill_data, list):
+                # 이름 매칭으로 빈 값 채우기
+                fill_map = {}
+                for fd in fill_data:
+                    fname = fd.get("name", "")
+                    fill_map[fname] = fd
+                    # 부분 매칭도 시도
+                    for pn in peer_names:
+                        if pn in fname or fname in pn:
+                            fill_map[pn] = fd
+
+                for p in peers:
+                    pname = p.get("name", "")
+                    fd = fill_map.get(pname)
+                    if not fd:
+                        # 부분 매칭
+                        for key, val in fill_map.items():
+                            if pname in key or key in pname:
+                                fd = val
+                                break
+                    if fd:
+                        for field in ["revenue", "operating_income", "net_income",
+                                      "total_assets", "total_equity", "market_cap"]:
+                            if p.get(field) is None and fd.get(field) is not None:
+                                p[field] = fd[field]
+
+                still_missing = [p["name"] for p in peers if p.get("revenue") is None]
+                if still_missing:
+                    print(f"[LLM Parser] 보완 후에도 누락: {still_missing}")
+                else:
+                    print("[LLM Parser] Peer 재무 데이터 보완 완료")
 
     # 결과 병합
     valuation_summary["peers"] = peers

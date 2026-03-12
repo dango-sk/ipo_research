@@ -1,0 +1,1502 @@
+[
+  {
+    "name": "에스팀",
+    "no": "2273",
+    "demand_date": "2026-02-09",
+    "demand_date_raw": "2026.02.09",
+    "band_low": 7000,
+    "band_high": 8500,
+    "confirmed_price": 8500,
+    "first_price": 15300,
+    "competition_ratio": 1334.91,
+    "commitment_pct": 42.45,
+    "underwriter": "한국투자증권",
+    "band_position": 100.0,
+    "first_day_return": 80.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 4500,
+      "high": 6000
+    },
+    "ai_reasons": [
+      "2025년 매출 26% 급감으로 사업 축소 신호, 성장성 부족",
+      "공모가 7,000-8,500원은 EV/EBITDA 17.71배로 과도하게 고평가",
+      "패션 콘텐츠 시장의 변동성과 경기민감성으로 안정성 부족"
+    ],
+    "ai_risk_note": "매출 급감 추세와 높은 밸류에이션으로 상장 후 조정 불가피",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "액스비스",
+    "no": "2268",
+    "demand_date": "2026-02-06",
+    "demand_date_raw": "2026.02.06",
+    "band_low": 10100,
+    "band_high": 11500,
+    "confirmed_price": 11500,
+    "first_price": 26450,
+    "competition_ratio": 1124.21,
+    "commitment_pct": 75.7,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 130.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 6500,
+      "high": 8500
+    },
+    "ai_reasons": [
+      "2025년 매출 급감(-36.9%)으로 사업 지속성에 의문, 일회성 매출 의존도가 높아 보임",
+      "2023년 자본잠식(-58억원) 발생 후 회복했으나 재무 안정성이 취약한 상태",
+      "공모가 밴드(10,100-11,500원)가 보수적 적정가(6,500-8,500원) 대비 40-70% 할증되어 과대평가"
+    ],
+    "ai_risk_note": "매출 급감세와 높은 밸류에이션으로 상장 후 주가 급락 위험 존재",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "케이뱅크(유가)",
+    "no": "2271",
+    "demand_date": "2026-02-04",
+    "demand_date_raw": "2026.02.04",
+    "band_low": 8300,
+    "band_high": 9500,
+    "confirmed_price": 8300,
+    "first_price": null,
+    "competition_ratio": 198.53,
+    "commitment_pct": null,
+    "underwriter": "NH투자증권,삼성증권,신한투자증권",
+    "band_position": 0.0,
+    "first_day_return": null,
+    "_note": "시초가 이상치 제외",
+    "ai_verdict": "CONDITIONAL",
+    "ai_confidence": "LOW",
+    "ai_fair_price": {
+      "low": 7500,
+      "high": 8500
+    },
+    "ai_reasons": [
+      "국내 1호 인터넷은행으로서 디지털 금융 선도 지위와 AI/빅데이터 기술력 보유",
+      "자본총계 2.2조원 규모로 성장했으나 수익성 지표가 불투명하여 실적 확인 필요",
+      "PBR 1.8배 적용한 밸류에이션이 공모가 대비 다소 높아 보이나 디지털 금융 프리미엄 고려 시 합리적 수준"
+    ],
+    "ai_risk_note": "수익성 지표 부재로 실적 불투명성과 상장 시점 36% 유통으로 인한 오버행 우려",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "덕양에너젠",
+    "no": "2267",
+    "demand_date": "2026-01-12",
+    "demand_date_raw": "2026.01.12",
+    "band_low": 8500,
+    "band_high": 10000,
+    "confirmed_price": 10000,
+    "first_price": 75000,
+    "competition_ratio": 650.14,
+    "commitment_pct": 14.38,
+    "underwriter": "NH투자증권,미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 650.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 6000,
+      "high": 7500
+    },
+    "ai_reasons": [
+      "2025년 매출 24% 급감으로 성장성 둔화 및 수익성 악화 확인",
+      "EV/EBITDA 30.32배는 성숙한 B2B 산업용가스 사업 대비 과도한 밸류에이션",
+      "부생수소 원료 의존도가 높아 상류 업체(염소업체) 운영 변화에 취약한 사업구조"
+    ],
+    "ai_risk_note": "원료 공급업체 의존도와 최근 실적 둔화로 공모가 밴드 대비 하방 리스크 과대",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "세미파이브",
+    "no": "2255",
+    "demand_date": "2025-12-10",
+    "demand_date_raw": "2025.12.10",
+    "band_low": 21000,
+    "band_high": 24000,
+    "confirmed_price": 24000,
+    "first_price": 129600,
+    "competition_ratio": 436.89,
+    "commitment_pct": 43.93,
+    "underwriter": "삼성증권",
+    "band_position": 100.0,
+    "first_day_return": 440.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 0,
+      "high": 15000
+    },
+    "ai_reasons": [
+      "2022년~2025년 연속 영업손실로 사업모델 수익성 부재, 특히 2025년 영업손실이 전년 대비 54% 확대",
+      "2024년 순손실 2,909억원으로 전년 대비 238% 급증하며 극심한 적자 지속",
+      "미래 흑자 전환 근거 없이 PER 46배 적용한 밸류에이션은 투기적 수준으로 과대평가"
+    ],
+    "ai_risk_note": "연속 대규모 손실 기업에 대한 고평가로 상장 후 급락 위험 극대",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "리브스메드",
+    "no": "2248",
+    "demand_date": "2025-12-04",
+    "demand_date_raw": "2025.12.04",
+    "band_low": 44000,
+    "band_high": 55000,
+    "confirmed_price": 55000,
+    "first_price": 135850,
+    "competition_ratio": 231.87,
+    "commitment_pct": 17.12,
+    "underwriter": "삼성증권,미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 147.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 25000,
+      "high": 35000
+    },
+    "ai_reasons": [
+      "2027년까지 흑자전환을 가정한 극도로 공격적인 밸류에이션 - 현재 연간 270억 적자에서 430억 흑자로의 급격한 전환 시나리오",
+      "매출 대비 과도한 공모가 - 2024년 매출 271억 대비 시총 1.4조원으로 PSR 50배 수준의 버블 밸류에이션",
+      "핵심 기술의 시장 검증 부족 - ArtiSential이 매출의 99.9%를 차지하나 여전히 대규모 적자 지속, 경쟁우위 불분명"
+    ],
+    "ai_risk_note": "바이오벤처급 손실 지속하는 의료기기 회사를 성숙한 글로벌 대기업 PER로 평가한 과대평가",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "삼진식품",
+    "no": "2252",
+    "demand_date": "2025-12-03",
+    "demand_date_raw": "2025.12.03",
+    "band_low": 6700,
+    "band_high": 7600,
+    "confirmed_price": 7600,
+    "first_price": 15200,
+    "competition_ratio": 1303.87,
+    "commitment_pct": 41.05,
+    "underwriter": "대신증권",
+    "band_position": 100.0,
+    "first_day_return": 100.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 4500,
+      "high": 5500
+    },
+    "ai_reasons": [
+      "매출·영업이익 등 핵심 실적 정보 부재로 사업 성과 판단 불가",
+      "부채비율 93% 수준의 극도로 취약한 재무구조(2024년 기준)",
+      "공모가 밴드가 적정가 대비 20-40% 과대평가된 수준"
+    ],
+    "ai_risk_note": "핵심 재무정보 부족과 높은 레버리지로 투자 리스크 과다",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "알지노믹스",
+    "no": "2258",
+    "demand_date": "2025-11-27",
+    "demand_date_raw": "2025.11.27",
+    "band_low": 17000,
+    "band_high": 22500,
+    "confirmed_price": 22500,
+    "first_price": 35020,
+    "competition_ratio": null,
+    "commitment_pct": 74.29,
+    "underwriter": "삼성증권,NH투자증권",
+    "band_position": 100.0,
+    "first_day_return": 55.6,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 0,
+      "high": 8000
+    },
+    "ai_reasons": [
+      "자본잠식 상태(-932억원)로 재무건전성 극도로 취약",
+      "2024년 매출 0원으로 사업화 단계 이전의 초기 바이오벤처",
+      "2027-29년 흑자전환 가정 기반 밸류에이션이 과도하게 공격적"
+    ],
+    "ai_risk_note": "자본잠식 심화와 매출 부재로 투자원금 손실 위험 매우 높음",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "나라스페이스테크놀로지",
+    "no": "2231",
+    "demand_date": "2025-11-26",
+    "demand_date_raw": "2025.11.26",
+    "band_low": 13100,
+    "band_high": 16500,
+    "confirmed_price": 16500,
+    "first_price": 28380,
+    "competition_ratio": 879.08,
+    "commitment_pct": 5.53,
+    "underwriter": "삼성증권",
+    "band_position": 100.0,
+    "first_day_return": 72.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 12000
+    },
+    "ai_reasons": [
+      "심각한 재무구조 악화 - 2024년까지 누적 적자로 인한 자본잠식(-441억원) 상태가 지속됨",
+      "과도한 밸류에이션 - 적자 기업에 PER 51.7배 적용하여 23,805원 산출은 비현실적이며, 2027년 흑자전환 가정도 불확실",
+      "불안정한 매출구조 - R&D 프로젝트 및 일회성 매출 중심으로 지속가능한 수익모델 미확립"
+    ],
+    "ai_risk_note": "재무구조 취약성과 과도한 밸류에이션으로 투자 리스크가 매우 높음",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "아크릴",
+    "no": "2247",
+    "demand_date": "2025-11-25",
+    "demand_date_raw": "2025.11.25",
+    "band_low": 17500,
+    "band_high": 19500,
+    "confirmed_price": 19500,
+    "first_price": 42120,
+    "competition_ratio": 790.49,
+    "commitment_pct": 52.75,
+    "underwriter": "신한투자증권",
+    "band_position": 100.0,
+    "first_day_return": 116.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 12000
+    },
+    "ai_reasons": [
+      "심각한 재무악화: 2023-2025 연속 적자, 자본잠식 상태(-203억원)에서 IPO 통한 자본구조 개선 목적이 명확",
+      "과도한 밸류에이션: 2027년 흑자전환 가정 하에 PER 28배 적용은 현재 적자상태 대비 매우 공격적이며 리스크 대비 불합리",
+      "매출 급감세: 2024년 -9%, 2025년 -44% 매출 감소로 사업 모멘텀 악화, AI 인프라 시장에서 경쟁력 의문"
+    ],
+    "ai_risk_note": "자본잠식 상태의 적자기업이 미래 흑자 가정으로 과도한 밸류에이션 적용",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "쿼드메디슨",
+    "no": "2237",
+    "demand_date": "2025-11-24",
+    "demand_date_raw": "2025.11.24",
+    "band_low": 12000,
+    "band_high": 15000,
+    "confirmed_price": 15000,
+    "first_price": 20400,
+    "competition_ratio": 1139.61,
+    "commitment_pct": 17.82,
+    "underwriter": "NH투자증권",
+    "band_position": 100.0,
+    "first_day_return": 36.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 10000
+    },
+    "ai_reasons": [
+      "2024년 매출 0원, 영업손실 44.5억원으로 극도로 이른 개발단계",
+      "2027년 추정 순이익 79.4억원은 현재 기술료 수준 대비 과도하게 낙관적",
+      "공모가 하한 12,000원도 추정 적정가 18,579원 대비 35% 할인에 불과해 매력 부족"
+    ],
+    "ai_risk_note": "매출 발생 시점과 규모의 불확실성이 극도로 높은 초기 바이오텍",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "이지스",
+    "no": "2238",
+    "demand_date": "2025-11-21",
+    "demand_date_raw": "2025.11.21",
+    "band_low": 13000,
+    "band_high": 15000,
+    "confirmed_price": 15000,
+    "first_price": 19500,
+    "competition_ratio": 1109.86,
+    "commitment_pct": 6.31,
+    "underwriter": "NH투자증권",
+    "band_position": 100.0,
+    "first_day_return": 30.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 0,
+      "high": 0
+    },
+    "ai_reasons": [
+      "제공된 정보가 극도로 제한적임 - 사업내용, 재무제표, 밸류에이션 근거 등 핵심 분석 요소 부재",
+      "업종코드 49301(기타 도로 여객 운송업)만으로는 사업 경쟁력 판단 불가",
+      "2014년 설립 후 약 10년간의 사업 실적과 성장성에 대한 데이터 없음"
+    ],
+    "ai_risk_note": "분석에 필요한 핵심 정보 부족으로 투자 판단 불가능",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "티엠씨(유가)",
+    "no": "2242",
+    "demand_date": "2025-11-21",
+    "demand_date_raw": "2025.11.21",
+    "band_low": 8000,
+    "band_high": 9300,
+    "confirmed_price": 9300,
+    "first_price": 48800,
+    "competition_ratio": 959.96,
+    "commitment_pct": 53.42,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 424.7,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 6000,
+      "high": 7500
+    },
+    "ai_reasons": [
+      "2025년 매출 29% 급감으로 사업 전망 악화, 증권신고서의 167억원 EBITDA 추정치가 매출 감소 대비 과도하게 낙관적",
+      "선박용 케이블 67% 의존도로 조선업 사이클 리스크 높고, 광케이블 6% 불과로 성장 동력 부족",
+      "공모가 8천원도 EV/EBITDA 17.35배로 과대평가, 매출 급감 상황에서 밸류에이션 근거 부실"
+    ],
+    "ai_risk_note": "조선업 사이클 하락과 매출 급감으로 단기 실적 악화 불가피",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "페스카로",
+    "no": "2240",
+    "demand_date": "2025-11-20",
+    "demand_date_raw": "2025.11.20",
+    "band_low": 12500,
+    "band_high": 15500,
+    "confirmed_price": 15500,
+    "first_price": 20150,
+    "competition_ratio": 1173.21,
+    "commitment_pct": 10.43,
+    "underwriter": "NH투자증권,한화투자증권",
+    "band_position": 100.0,
+    "first_day_return": 30.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 10000
+    },
+    "ai_reasons": [
+      "극도로 불안정한 재무구조 - 2023년 자본잠식(-663백만원) 후 2024년 대규모 적자(-79억원) 기록",
+      "수익성 급격히 악화 - 영업이익률 2023년 29%에서 2024년 9%, 2025년 5%로 지속 하락",
+      "과도한 밸류에이션 - PER 25.5배는 불안정한 실적 대비 과대평가, 2026년 추정실적 달성 불확실성 높음"
+    ],
+    "ai_risk_note": "자본잠식 경험과 급격한 수익성 악화로 사업 지속가능성에 의문",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "테라뷰홀딩스",
+    "no": "2239",
+    "demand_date": "2025-11-13",
+    "demand_date_raw": "2025.11.13",
+    "band_low": 7000,
+    "band_high": 8000,
+    "confirmed_price": 8000,
+    "first_price": 40000,
+    "competition_ratio": 646.0,
+    "commitment_pct": 10.19,
+    "underwriter": "삼성증권",
+    "band_position": 100.0,
+    "first_day_return": 400.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 0,
+      "high": 3000
+    },
+    "ai_reasons": [
+      "심각한 재무구조 악화: 2024년 자기자본 -43억원, 부채비율 182%로 재무위험 극대화",
+      "지속적 대규모 적자: 2024년 영업손실 52억원, 순손실 61억원으로 수익성 악화 심화",
+      "부적절한 밸류에이션: 2027년 흑자전환 가정하에 PER 41.48배 적용은 과도하게 낙관적"
+    ],
+    "ai_risk_note": "debt-to-equity 음수인 재무구조에서 지속경영 가능성 의문",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "에임드바이오",
+    "no": "2232",
+    "demand_date": "2025-11-12",
+    "demand_date_raw": "2025.11.12",
+    "band_low": 9000,
+    "band_high": 11000,
+    "confirmed_price": 11000,
+    "first_price": 70730,
+    "competition_ratio": 671.98,
+    "commitment_pct": 74.22,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 543.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 3000,
+      "high": 5000
+    },
+    "ai_reasons": [
+      "매출 기록이 전무한 초기 개발 단계 바이오텍으로 과도한 밸류에이션 - 2029년 추정 순이익 기반 PER 22.2배는 매출 실적 없는 기업에 부적절",
+      "재무구조 급속 악화 - 자기자본이 2022년 95억에서 2024년 34억으로 급감하며 부채비율 1,300% 수준으로 재무 건전성 심각",
+      "peer 비교 부적절 - 대웅제약, 종근당 등 매출 수천억원 규모 완제의약품 제조사와 비교하는 것은 무의미하며, 기술이전 의존 사업모델의 불확실성 간과"
+    ],
+    "ai_risk_note": "매출 없는 초기 바이오텍에 과도한 밸류에이션과 급속한 재무구조 악화로 투자 부적합",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "아로마티카",
+    "no": "2233",
+    "demand_date": "2025-11-07",
+    "demand_date_raw": "2025.11.07",
+    "band_low": 6000,
+    "band_high": 8000,
+    "confirmed_price": 8000,
+    "first_price": 24000,
+    "competition_ratio": 1152.98,
+    "commitment_pct": 58.01,
+    "underwriter": "신한투자증권",
+    "band_position": 100.0,
+    "first_day_return": 200.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 4500,
+      "high": 5500
+    },
+    "ai_reasons": [
+      "2022년 자기자본이 -98억원의 심각한 재무구조였으며, 2024년에야 흑자전환했지만 2025년 매출이 28% 급감하여 지속가능성 의문",
+      "PER 25.98배는 과도한 밸류에이션으로, 피어 중 브이티(9.82배)와 토니모리(16.0배) 대비 할증이 과도하며 할인율 19.95%도 부족",
+      "상장 즉시 31.4%가 유통되고 3개월 내 42%까지 증가하는 높은 오버행 리스크와 케이씨삼호투자의 일부 매도로 추가 물량 부담"
+    ],
+    "ai_risk_note": "재무구조 회복 초기 단계에서 매출 감소세 전환과 과도한 밸류에이션이 결합된 고위험 구조",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "비츠로넥스텍",
+    "no": "2229",
+    "demand_date": "2025-10-31",
+    "demand_date_raw": "2025.10.31",
+    "band_low": 5900,
+    "band_high": 6900,
+    "confirmed_price": 6900,
+    "first_price": 30360,
+    "competition_ratio": 1015.93,
+    "commitment_pct": 29.76,
+    "underwriter": "NH투자증권,교보증권",
+    "band_position": 100.0,
+    "first_day_return": 340.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 3000,
+      "high": 4500
+    },
+    "ai_reasons": [
+      "지속적인 적자 확대 - 2022년부터 2024년까지 매년 영업손실이 확대되고 있으며, 2024년 영업손실 140억원으로 전년 대비 78% 악화",
+      "매출 급감 추세 - 2023년 455억원에서 2024년 303억원으로 33% 감소, 2025년은 133억원으로 더욱 급감하여 사업 지속성에 의문",
+      "과도한 밸류에이션 - PER 37.78배를 적용하여 공모가 산출했으나, 현재 적자 기업에 PER 적용 자체가 부적절하며, 2027년 흑자전환 가정도 지나치게 낙관적"
+    ],
+    "ai_risk_note": "적자 지속, 매출 급감, 높은 부채비율(62.7%)로 재무 건전성 악화 우려",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "씨엠티엑스",
+    "no": "2236",
+    "demand_date": "2025-10-29",
+    "demand_date_raw": "2025.10.29",
+    "band_low": 51000,
+    "band_high": 60500,
+    "confirmed_price": 60500,
+    "first_price": 60500,
+    "competition_ratio": 756.19,
+    "commitment_pct": 71.77,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 0.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 30000,
+      "high": 40000
+    },
+    "ai_reasons": [
+      "부채비율 1000% 초과의 심각한 재무불안정성 - 2025년에도 자본잠식 상태 지속",
+      "2025년 순손실 458억원으로 수익성 급격히 악화되며 지속가능성 의문",
+      "공모가 하한 51,000원도 적정가 대비 27-70% 할증으로 과도하게 높은 가격"
+    ],
+    "ai_risk_note": "자본잠식 상태에서 IPO 진행하는 재무위험 기업",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "그린광학",
+    "no": "2228",
+    "demand_date": "2025-10-28",
+    "demand_date_raw": "2025.10.28",
+    "band_low": 14000,
+    "band_high": 16000,
+    "confirmed_price": 16000,
+    "first_price": 32000,
+    "competition_ratio": 962.34,
+    "commitment_pct": 65.43,
+    "underwriter": "신영증권",
+    "band_position": 100.0,
+    "first_day_return": 100.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 11000
+    },
+    "ai_reasons": [
+      "2023년과 2025년 연속 적자로 실적 변동성이 극심하며 사업 안정성이 부족",
+      "2027년 추정 순이익 97억원 기준 PER 25배는 과도한 밸류에이션으로 현재 적자 상황과 괴리",
+      "ZnS 소재는 특수 분야이나 시장 규모가 제한적이고 방산 의존도가 높아 매출 예측 불확실성 존재"
+    ],
+    "ai_risk_note": "실적 변동성이 극심한 방산 특화 기업에 성장주 밸류에이션을 적용한 과도한 공모가",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "더핑크퐁컴퍼니(구.스마트스터디)",
+    "no": "2230",
+    "demand_date": "2025-10-28",
+    "demand_date_raw": "2025.10.28",
+    "band_low": 32000,
+    "band_high": 38000,
+    "confirmed_price": 38000,
+    "first_price": 64000,
+    "competition_ratio": 615.89,
+    "commitment_pct": 30.42,
+    "underwriter": "미래에셋증권,삼성증권",
+    "band_position": 100.0,
+    "first_day_return": 68.4,
+    "ai_verdict": "CONDITIONAL",
+    "ai_confidence": "MEDIUM",
+    "ai_fair_price": {
+      "low": 28000,
+      "high": 35000
+    },
+    "ai_reasons": [
+      "아기상어라는 글로벌 메가히트 IP를 보유하고 있어 브랜드 파워가 강력함",
+      "2024년 영업손실에서 188억원 흑자전환으로 수익성 개선 추세 확인",
+      "콘텐츠→라이선스→MD로 확장하는 OSMU 사업모델의 확장성이 매력적"
+    ],
+    "ai_risk_note": "콘텐츠 업계 특성상 히트작 의존도가 높고 차세대 IP 개발 성공 여부가 불확실",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "큐리오시스",
+    "no": "2235",
+    "demand_date": "2025-10-27",
+    "demand_date_raw": "2025.10.27",
+    "band_low": 18000,
+    "band_high": 22000,
+    "confirmed_price": 22000,
+    "first_price": 26400,
+    "competition_ratio": 1031.39,
+    "commitment_pct": 55.67,
+    "underwriter": "키움증권",
+    "band_position": 100.0,
+    "first_day_return": 20.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 12000,
+      "high": 15000
+    },
+    "ai_reasons": [
+      "지속적인 영업적자와 순손실 발생으로 수익성 개선 가시성 부족",
+      "2027-2028년 흑자 전환 가정 기반 PER 27.1배 적용은 과도한 프리미엄",
+      "매출 변동성이 크고(2023년 33% 감소, 2025년 36% 감소) 사업모델의 안정성 의문"
+    ],
+    "ai_risk_note": "바이오장비 시장의 경기민감성과 지속적 적자 구조로 인한 재무 리스크",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "세나테크놀로지",
+    "no": "2226",
+    "demand_date": "2025-10-23",
+    "demand_date_raw": "2025.10.23",
+    "band_low": 47500,
+    "band_high": 56800,
+    "confirmed_price": 56800,
+    "first_price": 31808,
+    "competition_ratio": 976.92,
+    "commitment_pct": 17.04,
+    "underwriter": "KB증권,신한투자증권",
+    "band_position": 100.0,
+    "first_day_return": -44.0,
+    "ai_verdict": "CONDITIONAL",
+    "ai_confidence": "MEDIUM",
+    "ai_fair_price": {
+      "low": 35000,
+      "high": 45000
+    },
+    "ai_reasons": [
+      "메시 인터콤 독자기술로 차별화된 틈새시장 선도기업",
+      "글로벌 140개국 4천여개 대리점 유통망과 BMW, 할리데이비슨 등 브랜드 파트너십 보유",
+      "2025년 매출 40% 급감으로 일회성 요인 의심, 밸류에이션 과도하게 높음"
+    ],
+    "ai_risk_note": "2025년 매출 급감 원인 불명확, 공모가 밴드가 적정가치 대비 25-60% 할증",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "이노테크",
+    "no": "2225",
+    "demand_date": "2025-10-16",
+    "demand_date_raw": "2025.10.16",
+    "band_low": 12900,
+    "band_high": 14700,
+    "confirmed_price": 14700,
+    "first_price": 25872,
+    "competition_ratio": 1072.41,
+    "commitment_pct": 56.03,
+    "underwriter": "KB증권",
+    "band_position": 100.0,
+    "first_day_return": 76.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 10000
+    },
+    "ai_reasons": [
+      "2025년 매출이 전년 대비 35% 급감하여 성장성 둔화",
+      "PER 19.09배는 매출 감소 기업 대비 과도한 밸류에이션",
+      "디스플레이 장비 의존도 85%로 업종 사이클 리스크 높음"
+    ],
+    "ai_risk_note": "주력 디스플레이 업종 침체 시 실적 급변동 가능성",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "노타",
+    "no": "2227",
+    "demand_date": "2025-10-14",
+    "demand_date_raw": "2025.10.14",
+    "band_low": 7600,
+    "band_high": 9100,
+    "confirmed_price": 9100,
+    "first_price": 26536,
+    "competition_ratio": 1058.2,
+    "commitment_pct": 59.75,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 191.6,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 3000,
+      "high": 5000
+    },
+    "ai_reasons": [
+      "심각한 재무구조 - 2024년 자본잠식 705억원으로 기술적 파산 상태, 3년 연속 대규모 적자",
+      "과도한 밸류에이션 - 2028-29년 흑자전환 가정하에 PER 29.4배 적용은 지나치게 공격적, 현재 매출 84억 대비 시총 1,929억은 PSR 23배 수준",
+      "불안정한 매출 구조 - 2024년 84억에서 2025년 5.6억으로 급감, 지속가능한 수익 모델 미확립"
+    ],
+    "ai_risk_note": "자본잠식 상태에서 흑자전환 불확실성과 과도한 밸류에이션으로 투자 부적합",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "명인제약(유가)",
+    "no": "2220",
+    "demand_date": "2025-09-09",
+    "demand_date_raw": "2025.09.09",
+    "band_low": 45000,
+    "band_high": 58000,
+    "confirmed_price": 58000,
+    "first_price": 197200,
+    "competition_ratio": 488.95,
+    "commitment_pct": 62.08,
+    "underwriter": "KB증권",
+    "band_position": 100.0,
+    "first_day_return": 240.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 30000,
+      "high": 40000
+    },
+    "ai_reasons": [
+      "2025년 반기 매출이 전년 동기 대비 47% 급감하여 성장 모멘텀 상실",
+      "공모가 밴드(4.5만~5.8만원)가 EV/EBITDA 기준 적정가치(8.6만원) 대비 할인되어 보이나, 2025년 실적 악화로 인한 밸류에이션 조정 불가피",
+      "CNS 전문의약품 시장의 성숙화와 경쟁 심화로 향후 성장성에 대한 불확실성 증대"
+    ],
+    "ai_risk_note": "2025년 실적 급감이 일시적 현상인지 구조적 문제인지 불분명하여 투자 리스크 과대",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "에스투더블유",
+    "no": "2219",
+    "demand_date": "2025-09-02",
+    "demand_date_raw": "2025.09.02",
+    "band_low": 11400,
+    "band_high": 13200,
+    "confirmed_price": 13200,
+    "first_price": 20856,
+    "competition_ratio": 1145.4,
+    "commitment_pct": 22.86,
+    "underwriter": "대신증권",
+    "band_position": 100.0,
+    "first_day_return": 58.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 0,
+      "high": 5000
+    },
+    "ai_reasons": [
+      "2022-2025년 연속 적자로 수익성 전무, 2027년 흑자전환 추정은 매우 불확실",
+      "부채비율이 극도로 높고 자본잠식에서 벗어난 지 1년 미만으로 재무위험 심각",
+      "PER 19.36배는 미래 흑자 가정에 기반한 것으로 현실성 부족, 현재 적자상태에서 밸류에이션 불가능"
+    ],
+    "ai_risk_note": "연속 적자기업의 과도한 밸류에이션으로 원금손실 위험 매우 높음",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "제이피아이헬스케어(구.정원정밀공업)",
+    "no": "2213",
+    "demand_date": "2025-08-01",
+    "demand_date_raw": "2025.08.01",
+    "band_low": 16500,
+    "band_high": 20000,
+    "confirmed_price": 20000,
+    "first_price": 31600,
+    "competition_ratio": 942.71,
+    "commitment_pct": 3.03,
+    "underwriter": "키움증권",
+    "band_position": 100.0,
+    "first_day_return": 58.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 12000,
+      "high": 15000
+    },
+    "ai_reasons": [
+      "2024년 매출 감소(-0.79%)와 영업이익 급감(-40%) 후 2025년 1분기 실적이 더욱 악화(-75% 매출 감소)하여 사업 모멘텀 부재",
+      "PER 21.37배는 동종업계 대비 과도하게 높음 - 휴비츠(12.6배), 뷰웍스(13.6배) 등 우량 동종기업 대비 60% 이상 프리미엄",
+      "그리드 매출 의존도 64%로 집중도 높고, GE/Siemens/Philips 등 대형 고객사 의존 리스크와 단가 하락 압력 상존"
+    ],
+    "ai_risk_note": "실적 급락세와 고객사 집중도 높은 구조에서 밸류에이션이 과도하게 높게 책정됨",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "그래피",
+    "no": "2209",
+    "demand_date": "2025-07-31",
+    "demand_date_raw": "2025.07.31",
+    "band_low": 17000,
+    "band_high": 20000,
+    "confirmed_price": 15000,
+    "first_price": 33150,
+    "competition_ratio": 182.15,
+    "commitment_pct": null,
+    "underwriter": "KB증권,신한투자증권",
+    "band_position": -66.7,
+    "first_day_return": 121.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 12000
+    },
+    "ai_reasons": [
+      "재무구조가 극도로 취약하여 2022-2023년 연속 자본잠식 상태였고, 2024년 겨우 자본잠식에서 벗어났으나 자기자본비율이 여전히 17.5%로 낮음",
+      "2027년 추정 순이익 118억원에 PER 28.96배를 적용한 밸류에이션이 과도하게 공격적이며, 현재 매출 대비 공모가 밴드가 비현실적으로 높음",
+      "2025년 1분기 매출이 23억원으로 연환산 시 전년 대비 43% 감소세를 보이고 있어 성장 모멘텀에 의문"
+    ],
+    "ai_risk_note": "자본잠식 이력과 높은 부채비율로 인한 재무리스크 및 과도한 밸류에이션",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "한라캐스트",
+    "no": "2217",
+    "demand_date": "2025-07-30",
+    "demand_date_raw": "2025.07.30",
+    "band_low": 5100,
+    "band_high": 5800,
+    "confirmed_price": 5800,
+    "first_price": 38250,
+    "competition_ratio": 832.89,
+    "commitment_pct": 5.82,
+    "underwriter": "대신증권",
+    "band_position": 100.0,
+    "first_day_return": 559.5,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 3500,
+      "high": 4200
+    },
+    "ai_reasons": [
+      "2022-2023년 연속 적자와 음(-) 자기자본으로 재무구조 극도로 취약",
+      "2025년 1분기 매출 71% 급감과 영업이익 65% 감소로 사업 안정성 의문",
+      "PER 25.93배는 과도하게 높으며, 변동성 큰 실적 대비 밸류에이션 부담"
+    ],
+    "ai_risk_note": "부채비율 148%의 취약한 재무구조와 급격한 실적 변동성으로 투자 리스크 매우 높음",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "에스엔시스",
+    "no": "2211",
+    "demand_date": "2025-07-28",
+    "demand_date_raw": "2025.07.28",
+    "band_low": 27000,
+    "band_high": 30000,
+    "confirmed_price": 30000,
+    "first_price": 57000,
+    "competition_ratio": 739.17,
+    "commitment_pct": 27.37,
+    "underwriter": "신한투자증권",
+    "band_position": 100.0,
+    "first_day_return": 90.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 18000,
+      "high": 22000
+    },
+    "ai_reasons": [
+      "2025년 1Q 실적 급락으로 연간화시 매출 127억원(전년 1381억원 대비 91% 감소) 예상되며 사업 지속성에 심각한 의문",
+      "공모가 밴드 2.7~3만원은 2024년 기준 PER 17~19배로 급락하는 실적 대비 과도하게 높은 밸류에이션",
+      "증권신고서의 LTM 당기순이익 185억원 기반 PER 21.6배 적용이 비현실적이며, 2025년 연간화 순이익 134억원 기준으로는 PER 30~35배에 달함"
+    ],
+    "ai_risk_note": "2025년 1분기 실적 급락세가 연간 지속될 경우 상장 후 대폭 조정 불가피",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "지투지바이오",
+    "no": "2207",
+    "demand_date": "2025-07-25",
+    "demand_date_raw": "2025.07.25",
+    "band_low": 48000,
+    "band_high": 58000,
+    "confirmed_price": 58000,
+    "first_price": 52200,
+    "competition_ratio": 810.6,
+    "commitment_pct": 15.64,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": -10.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 15000,
+      "high": 25000
+    },
+    "ai_reasons": [
+      "심각한 재무구조 - 자본잠식 1,195억원으로 완전자본잠식 상태",
+      "매출규모 대비 과도한 밸류에이션 - 2024년 매출 7.7억원 대비 공모가총액 432억원",
+      "2029년 당기순이익 400억원 추정치가 현재 매출 기준 비현실적으로 공격적"
+    ],
+    "ai_risk_note": "완전자본잠식 상태에서 임상시험 실패시 투자금 전액 손실 가능",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "삼양컴텍",
+    "no": "2206",
+    "demand_date": "2025-07-24",
+    "demand_date_raw": "2025.07.24",
+    "band_low": 6600,
+    "band_high": 7700,
+    "confirmed_price": 7700,
+    "first_price": 111650,
+    "competition_ratio": 565.55,
+    "commitment_pct": 48.37,
+    "underwriter": "신한투자증권,NH투자증권",
+    "band_position": 100.0,
+    "first_day_return": 1350.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 4500,
+      "high": 5500
+    },
+    "ai_reasons": [
+      "매출액과 수익성 데이터가 전면 비공개로 기업 펀더멘털 분석 불가능",
+      "방위산업이라는 특수한 업종으로 투명성 부족하며 시장 예측 어려움",
+      "PER 30.91배 적용한 밸류에이션이 과도하게 높아 공모가 밴드(6600-7700원) 대비 고평가"
+    ],
+    "ai_risk_note": "핵심 재무정보 미공개로 투자 판단 근거 부족, 방산업체 특성상 수주 변동성 높음",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "아이티켐",
+    "no": "2204",
+    "demand_date": "2025-07-17",
+    "demand_date_raw": "2025.07.17",
+    "band_low": 14500,
+    "band_high": 16100,
+    "confirmed_price": 16100,
+    "first_price": 32200,
+    "competition_ratio": 1157.98,
+    "commitment_pct": 23.83,
+    "underwriter": "KB증권",
+    "band_position": 100.0,
+    "first_day_return": 100.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 12000
+    },
+    "ai_reasons": [
+      "2025년 1분기 실적 급격한 악화 - 매출 73% 감소, 영업손실 전환으로 실적 예측 신뢰성 의문",
+      "2022-2023년 연속 자본잠식 상태였다가 2024년 급격한 흑자 전환은 일회성 요소 가능성 높음",
+      "EV/EBITDA 24.9배는 과도한 밸류에이션 - 2025년 추정 EBITDA 118억원 대비 공모가 밴드 과평가"
+    ],
+    "ai_risk_note": "실적 변동성이 극심하고 2025년 1분기 급격한 실적 악화로 향후 실적 예측 불가능",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "대한조선(유가)",
+    "no": "2210",
+    "demand_date": "2025-07-11",
+    "demand_date_raw": "2025.07.11",
+    "band_low": 42000,
+    "band_high": 50000,
+    "confirmed_price": 50000,
+    "first_price": 500000,
+    "competition_ratio": 275.66,
+    "commitment_pct": 56.86,
+    "underwriter": "KB증권,NH투자증권,신영증권",
+    "band_position": 100.0,
+    "first_day_return": 900.0,
+    "ai_verdict": "CONDITIONAL",
+    "ai_confidence": "MEDIUM",
+    "ai_fair_price": {
+      "low": 35000,
+      "high": 42000
+    },
+    "ai_reasons": [
+      "2024년 영업이익률 14.7%로 크게 개선되었으나 2025년 1분기 매출 급감(-71.4%)으로 실적 지속성에 의문",
+      "PBR 4.58배는 조선업 특성상 과대평가된 것으로 판단되며, 할인율 28.4% 적용에도 불구하고 여전히 높은 수준",
+      "중형/준대형 선박 특화 포지셔닝과 친환경 기술 보유는 긍정적이나 대형 경쟁사 대비 규모의 경제 한계"
+    ],
+    "ai_risk_note": "조선업 특유의 수주-인도 시차로 인한 실적 변동성과 글로벌 해운시장 경기 민감성",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "엔알비",
+    "no": "2199",
+    "demand_date": "2025-07-08",
+    "demand_date_raw": "2025.07.08",
+    "band_low": 18000,
+    "band_high": 21000,
+    "confirmed_price": 21000,
+    "first_price": 44100,
+    "competition_ratio": 800.83,
+    "commitment_pct": 0.77,
+    "underwriter": "NH투자증권,KB증권",
+    "band_position": 100.0,
+    "first_day_return": 110.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 10000,
+      "high": 15000
+    },
+    "ai_reasons": [
+      "2022-2023년 연속 자본잠식 상태로 재무건전성 극도로 취약",
+      "매출/영업이익 등 핵심 실적 데이터 부재로 사업성과 검증 불가",
+      "공모자금 70%가 채무상환용으로 투자매력도 낮고 성장동력 부족",
+      "모듈러 건설 시장의 불확실성과 경쟁사 대비 규모/기술력 검증 부족"
+    ],
+    "ai_risk_note": "자본잠식 해소 직후 상장으로 재무안정성 의문, 실적 데이터 부족으로 밸류에이션 신뢰도 극히 낮음",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "프로티나",
+    "no": "2197",
+    "demand_date": "2025-07-08",
+    "demand_date_raw": "2025.07.08",
+    "band_low": 11000,
+    "band_high": 14000,
+    "confirmed_price": 14000,
+    "first_price": 21000,
+    "competition_ratio": 1199.2,
+    "commitment_pct": 8.11,
+    "underwriter": "한국투자증권",
+    "band_position": 100.0,
+    "first_day_return": 50.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 4000,
+      "high": 6000
+    },
+    "ai_reasons": [
+      "2025년 매출 급감(-53.8%)으로 성장성 의문, 2024년 대폭 증가가 일회성 매출로 추정",
+      "지속적인 영업손실과 순손실로 수익성 전망 불투명, 2022-2024년 누적 적자 규모 심각",
+      "PER 26.06배 적용한 밸류에이션이 과도하게 낙관적, 손실기업 대상 수익 기반 평가 부적절"
+    ],
+    "ai_risk_note": "초기 단계 바이오 기업으로 기술 상용화 불확실성과 지속적 자금 조달 필요성",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "뉴로핏",
+    "no": "2200",
+    "demand_date": "2025-07-04",
+    "demand_date_raw": "2025.07.04",
+    "band_low": 11400,
+    "band_high": 14000,
+    "confirmed_price": 14000,
+    "first_price": 28000,
+    "competition_ratio": 1087.6,
+    "commitment_pct": 12.08,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 100.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 0,
+      "high": 5000
+    },
+    "ai_reasons": [
+      "완전자본잠식 상태(-512억원)로 재무건전성 극도로 악화",
+      "3년 연속 영업손실 확대(-146억원)로 사업모델 수익성 미검증",
+      "매출 급감(-76%, 5.3억원)과 손실 지속으로 턴어라운드 불투명"
+    ],
+    "ai_risk_note": "자본잠식 및 지속적 손실로 상장폐지 위험 존재",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "도우인시스",
+    "no": "2193",
+    "demand_date": "2025-07-03",
+    "demand_date_raw": "2025.07.03",
+    "band_low": 29000,
+    "band_high": 32000,
+    "confirmed_price": 32000,
+    "first_price": 44800,
+    "competition_ratio": 785.41,
+    "commitment_pct": 3.58,
+    "underwriter": "키움증권",
+    "band_position": 100.0,
+    "first_day_return": 40.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 18000,
+      "high": 22000
+    },
+    "ai_reasons": [
+      "2025년 1분기 매출 급감(-88%)과 대규모 적자전환으로 사업 지속성에 심각한 우려",
+      "높은 부채비율과 단일 사업구조로 인한 폴더블폰 시장 의존도 과다",
+      "공모가 밴드(2.9~3.2만원)가 EV/EBITDA 15배 기준 적정가치 대비 50% 이상 고평가"
+    ],
+    "ai_risk_note": "폴더블폰 시장 성장 둔화시 급격한 실적 악화 불가피",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "아우토크립트",
+    "no": "2196",
+    "demand_date": "2025-06-24",
+    "demand_date_raw": "2025.06.24",
+    "band_low": 18700,
+    "band_high": 22000,
+    "confirmed_price": 22000,
+    "first_price": 30800,
+    "competition_ratio": 995.34,
+    "commitment_pct": 5.28,
+    "underwriter": "대신증권",
+    "band_position": 100.0,
+    "first_day_return": 40.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 12000
+    },
+    "ai_reasons": [
+      "3년 연속 대규모 영업손실과 순손실로 수익성 전무하며 2025년에도 적자 지속",
+      "2027년 176억 순이익 추정은 현실적 근거 부족하고 과도하게 공격적 - 현재 매출 47억 대비 비현실적",
+      "Peer 평균 PER 23.58배 적용은 적자기업에 부적절하며 할인율 33.5%로도 고평가 리스크 상존"
+    ],
+    "ai_risk_note": "현금소진 우려와 지속적 적자로 인한 재무위험 및 과도한 밸류에이션",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "싸이닉솔루션",
+    "no": "2194",
+    "demand_date": "2025-06-16",
+    "demand_date_raw": "2025.06.16",
+    "band_low": 4000,
+    "band_high": 4700,
+    "confirmed_price": 4700,
+    "first_price": 16450,
+    "competition_ratio": 1289.62,
+    "commitment_pct": 7.91,
+    "underwriter": "대신증권",
+    "band_position": 100.0,
+    "first_day_return": 250.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 2800,
+      "high": 3500
+    },
+    "ai_reasons": [
+      "2025년 실적 급락으로 밸류에이션 기준 무너짐 - 매출 81% 감소, 영업이익 89% 감소",
+      "PER 30배는 성장 둔화 기업에 과도한 프리미엄 - 대만 동종업체 대비 할인 없이 동일 수준 적용",
+      "상장 즉시 유통가능 비율 32%로 물량 부담 존재하며 중소형주 특성상 변동성 확대 우려"
+    ],
+    "ai_risk_note": "2025년 실적 급락이 일시적인지 구조적인지 불분명한 상황에서 높은 밸류에이션 부담",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "뉴엔에이아이(구.알에스엔)",
+    "no": "2192",
+    "demand_date": "2025-06-12",
+    "demand_date_raw": "2025.06.12",
+    "band_low": 13000,
+    "band_high": 15000,
+    "confirmed_price": 15000,
+    "first_price": 33300,
+    "competition_ratio": 995.61,
+    "commitment_pct": 17.18,
+    "underwriter": "NH투자증권,신한투자증권",
+    "band_position": 100.0,
+    "first_day_return": 122.0,
+    "ai_verdict": "NO_DATA",
+    "ai_data_source": "NONE"
+  },
+  {
+    "name": "지에프씨생명과학",
+    "no": "2195",
+    "demand_date": "2025-06-10",
+    "demand_date_raw": "2025.06.10",
+    "band_low": 12300,
+    "band_high": 15300,
+    "confirmed_price": 15300,
+    "first_price": 11995,
+    "competition_ratio": 1443.69,
+    "commitment_pct": 13.88,
+    "underwriter": "대신증권",
+    "band_position": 100.0,
+    "first_day_return": -21.6,
+    "ai_verdict": "CONDITIONAL",
+    "ai_confidence": "MEDIUM",
+    "ai_fair_price": {
+      "low": 13500,
+      "high": 16500
+    },
+    "ai_reasons": [
+      "스킨마이크로바이옴 분야 선도기업으로 2000여개 균주 라이브러리와 80종 특허기탁 미생물 보유한 기술력",
+      "2024년 168억원 매출 기록하며 소재사업부(65%)와 임상사업부(24%) 포트폴리오 다각화로 안정적 수익구조",
+      "PER 22.42배 적용한 증권신고서 밸류에이션이 현재 공모가 밴드 대비 상당한 할인 상태로 매력적"
+    ],
+    "ai_risk_note": "2026년 추정실적 기반 밸류에이션의 불확실성과 24개월 보호예수 35.7%로 인한 중장기 오버행 부담",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "GC지놈(구.GC녹십자지놈)",
+    "no": "2189",
+    "demand_date": "2025-05-19",
+    "demand_date_raw": "2025.05.19",
+    "band_low": 9000,
+    "band_high": 10500,
+    "confirmed_price": 10500,
+    "first_price": 42000,
+    "competition_ratio": 547.47,
+    "commitment_pct": 1.04,
+    "underwriter": "삼성증권",
+    "band_position": 100.0,
+    "first_day_return": 300.0,
+    "ai_verdict": "NO_DATA",
+    "ai_data_source": "NONE"
+  },
+  {
+    "name": "링크솔루션",
+    "no": "2188",
+    "demand_date": "2025-05-16",
+    "demand_date_raw": "2025.05.16",
+    "band_low": 20000,
+    "band_high": 23000,
+    "confirmed_price": 23000,
+    "first_price": 20700,
+    "competition_ratio": 1159.43,
+    "commitment_pct": 1.83,
+    "underwriter": "신영증권",
+    "band_position": 100.0,
+    "first_day_return": -10.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 8000,
+      "high": 12000
+    },
+    "ai_reasons": [
+      "2024년 영업손실 40억원으로 수익성 악화",
+      "PER 30배는 적자기업 대비 과도한 밸류에이션",
+      "3D 프린터 시장의 치열한 경쟁과 수익성 한계"
+    ],
+    "ai_risk_note": "적자 상황에서 과도한 밸류에이션과 불확실한 수익성 회복 시점",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "키스트론",
+    "no": "2186",
+    "demand_date": "2025-05-12",
+    "demand_date_raw": "2025.05.12",
+    "band_low": 3100,
+    "band_high": 3600,
+    "confirmed_price": 3600,
+    "first_price": 22680,
+    "competition_ratio": 1140.95,
+    "commitment_pct": 14.95,
+    "underwriter": "신한투자증권",
+    "band_position": 100.0,
+    "first_day_return": 530.0,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 2200,
+      "high": 2800
+    },
+    "ai_reasons": [
+      "재무데이터 미공개로 매출액과 수익성 추이 파악 불가능",
+      "동복강선이라는 전통 제조업 영역에서 중국 저가 경쟁 심화",
+      "공모가 밴드 3100-3600원이 추정 적정가 대비 11-63% 과대평가"
+    ],
+    "ai_risk_note": "핵심 재무지표 부재로 투자 판단 근거 부족, 레거시 산업 특성상 성장성 제약",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "인투셀",
+    "no": "2184",
+    "demand_date": "2025-04-29",
+    "demand_date_raw": "2025.04.29",
+    "band_low": 12500,
+    "band_high": 17000,
+    "confirmed_price": 17000,
+    "first_price": 18750,
+    "competition_ratio": 1151.5,
+    "commitment_pct": 11.96,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": 10.3,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 5000,
+      "high": 8000
+    },
+    "ai_reasons": [
+      "2024년 매출 29억원 대비 98억원 영업손실로 극심한 적자구조",
+      "2027년 163억원 순이익 추정은 현재 적자 상황 대비 과도하게 낙관적",
+      "기술이전 중심 수익모델의 불확실성과 예측 가능성 부족",
+      "공모가 밴드 12,500-17,000원이 현재 재무상황 대비 과도하게 높음"
+    ],
+    "ai_risk_note": "적자 지속 중인 바이오벤처의 과도한 밸류에이션과 불확실한 기술이전 수익모델",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "달바글로벌(구.비모뉴먼트)(유가)",
+    "no": "2185",
+    "demand_date": "2025-04-28",
+    "demand_date_raw": "2025.04.28",
+    "band_low": 54500,
+    "band_high": 66300,
+    "confirmed_price": 66300,
+    "first_price": 35643,
+    "competition_ratio": 1140.88,
+    "commitment_pct": 24.24,
+    "underwriter": "미래에셋증권",
+    "band_position": 100.0,
+    "first_day_return": -46.2,
+    "ai_verdict": "CONDITIONAL",
+    "ai_confidence": "MEDIUM",
+    "ai_fair_price": {
+      "low": 45000,
+      "high": 55000
+    },
+    "ai_reasons": [
+      "화이트 트러플 미스트 54% 매출 집중으로 제품 다변화 부족하고 단일 히트상품 의존도 높음",
+      "PER 20.99배는 적정하나 순이익 484억원이 매출 3091억원 대비 과도하게 높아 지속가능성 의문",
+      "공모가 하한 54,500원도 보수적 추정 적정가 상단을 상회하여 밸류에이션 부담 존재"
+    ],
+    "ai_risk_note": "미스트 제품 집중도 54%로 단일 제품 리스크와 높은 순이익률의 지속가능성 우려",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "바이오비쥬",
+    "no": "2183",
+    "demand_date": "2025-04-23",
+    "demand_date_raw": "2025.04.23",
+    "band_low": 8000,
+    "band_high": 9100,
+    "confirmed_price": 9100,
+    "first_price": 24000,
+    "competition_ratio": 1094.25,
+    "commitment_pct": 12.48,
+    "underwriter": "대신증권",
+    "band_position": 100.0,
+    "first_day_return": 163.7,
+    "ai_verdict": "BUY",
+    "ai_confidence": "MEDIUM",
+    "ai_fair_price": {
+      "low": 10500,
+      "high": 12000
+    },
+    "ai_reasons": [
+      "매출 73% 성장(2024년 296억)과 영업이익률 31%의 강한 수익성",
+      "히알루론산 필러/스킨부스터 시장의 고성장성과 수출 중심 사업모델",
+      "공모가 밴드(8000-9100원)가 동종업계 PER 대비 할인된 수준"
+    ],
+    "ai_risk_note": "30개월 보호예수 물량(50.8%)과 소규모 기업의 실적 변동성 리스크",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "이뮨온시아",
+    "no": "2178",
+    "demand_date": "2025-04-22",
+    "demand_date_raw": "2025.04.22",
+    "band_low": 3000,
+    "band_high": 3600,
+    "confirmed_price": 3600,
+    "first_price": 27421,
+    "competition_ratio": 897.45,
+    "commitment_pct": 8.22,
+    "underwriter": "한국투자증권",
+    "band_position": 100.0,
+    "first_day_return": 661.7,
+    "ai_verdict": "AVOID",
+    "ai_confidence": "HIGH",
+    "ai_fair_price": {
+      "low": 1500,
+      "high": 2200
+    },
+    "ai_reasons": [
+      "심각한 재무구조 문제 - 2022~2024년 자본잠식 상태에서 지속적 영업손실, 매출 급감(-98.6%)",
+      "극도로 공격적인 밸류에이션 - 2028년 흑자전환 가정한 PER 19.18배는 현재 적자기업에 부적절",
+      "사업화 불확실성 - ADC/AIC 파이프라인이 모두 전임상/임상 초기 단계로 상업화까지 최소 5-7년 소요"
+    ],
+    "ai_risk_note": "자본잠식 상태의 적자기업에 성숙한 제약회사 PER을 적용한 과도한 밸류에이션",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "원일티엔아이",
+    "no": "2180",
+    "demand_date": "2025-04-16",
+    "demand_date_raw": "2025.04.16",
+    "band_low": 11500,
+    "band_high": 13500,
+    "confirmed_price": 13500,
+    "first_price": 13800,
+    "competition_ratio": 1308.07,
+    "commitment_pct": 23.34,
+    "underwriter": "NH투자증권",
+    "band_position": 100.0,
+    "first_day_return": 2.2,
+    "ai_verdict": "ERROR",
+    "ai_data_source": "DART_FULL"
+  },
+  {
+    "name": "오가노이드사이언스",
+    "no": "2181",
+    "demand_date": "2025-04-16",
+    "demand_date_raw": "2025.04.16",
+    "band_low": 17000,
+    "band_high": 21000,
+    "confirmed_price": 21000,
+    "first_price": 25200,
+    "competition_ratio": 1066.9,
+    "commitment_pct": 6.33,
+    "underwriter": "한국투자증권",
+    "band_position": 100.0,
+    "first_day_return": 20.0,
+    "ai_verdict": "ERROR",
+    "ai_data_source": "CRASH"
+  },
+  {
+    "name": "나우로보틱스(구.나우테크닉스)",
+    "no": "2175",
+    "demand_date": "2025-04-14",
+    "demand_date_raw": "2025.04.14",
+    "band_low": 5900,
+    "band_high": 6800,
+    "confirmed_price": 6800,
+    "first_price": 14750,
+    "competition_ratio": 1394.96,
+    "commitment_pct": 13.59,
+    "underwriter": "대신증권,아이엠증권",
+    "band_position": 100.0,
+    "first_day_return": 116.9,
+    "ai_verdict": "ERROR",
+    "ai_data_source": "CRASH"
+  },
+  {
+    "name": "로킷헬스케어",
+    "no": "2176",
+    "demand_date": "2025-04-14",
+    "demand_date_raw": "2025.04.14",
+    "band_low": 11000,
+    "band_high": 13000,
+    "confirmed_price": 11000,
+    "first_price": 17160,
+    "competition_ratio": 368.45,
+    "commitment_pct": 8.51,
+    "underwriter": "SK증권,KB증권",
+    "band_position": 0.0,
+    "first_day_return": 56.0,
+    "ai_verdict": "ERROR",
+    "ai_data_source": "CRASH"
+  },
+  {
+    "name": "쎄크",
+    "no": "2173",
+    "demand_date": "2025-04-08",
+    "demand_date_raw": "2025.04.08",
+    "band_low": 13000,
+    "band_high": 15000,
+    "confirmed_price": 15000,
+    "first_price": 18000,
+    "competition_ratio": 1232.54,
+    "commitment_pct": 3.76,
+    "underwriter": "신영증권",
+    "band_position": 100.0,
+    "first_day_return": 20.0,
+    "ai_verdict": "ERROR",
+    "ai_data_source": "CRASH"
+  },
+  {
+    "name": "한국피아이엠",
+    "no": "2174",
+    "demand_date": "2025-03-17",
+    "demand_date_raw": "2025.03.17",
+    "band_low": 9300,
+    "band_high": 11200,
+    "confirmed_price": 11200,
+    "first_price": 14560,
+    "competition_ratio": 1214.55,
+    "commitment_pct": 5.55,
+    "underwriter": "IBK투자증권",
+    "band_position": 100.0,
+    "first_day_return": 30.0,
+    "ai_verdict": "ERROR",
+    "ai_data_source": "CRASH"
+  },
+  {
+    "name": "에이유브랜즈",
+    "no": "2170",
+    "demand_date": "2025-03-13",
+    "demand_date_raw": "2025.03.13",
+    "band_low": 14000,
+    "band_high": 16000,
+    "confirmed_price": 16000,
+    "first_price": 28000,
+    "competition_ratio": 816.22,
+    "commitment_pct": 3.21,
+    "underwriter": "한국투자증권",
+    "band_position": 100.0,
+    "first_day_return": 75.0,
+    "ai_verdict": "ERROR",
+    "ai_data_source": "CRASH"
+  }
+]

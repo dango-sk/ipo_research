@@ -218,6 +218,9 @@ def generate_excel(data: dict, company_name: str) -> Path:
         ]
         for label, val in val_items:
             ws.cell(row=row, column=1, value=label).font = HEADER_FONT
+            # 리스트/튜플 값은 문자열로 변환 (예: discount_rate=[0.353, 0.1913])
+            if isinstance(val, (list, tuple)):
+                val = ", ".join(str(v) for v in val)
             ws.cell(row=row, column=2, value=val)
             row += 1
 

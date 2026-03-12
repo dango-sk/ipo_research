@@ -25,6 +25,12 @@
 ```bash
 git clone https://github.com/<your-username>/ipo-research.git
 cd ipo-research
+
+# 가상환경 생성 & 활성화
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+# 패키지 설치
 pip install -r requirements.txt
 ```
 

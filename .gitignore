@@ -6,6 +6,8 @@ __pycache__/
 *.pyc
 *.pyo
 *.egg-info/
+venv/
+.venv/
 
 # Data (generated at runtime)
 data/corp_codes/
@@ -16,7 +18,8 @@ data/reports/
 .DS_Store
 Thumbs.db
 
-# IDE
+# IDE / Tools
 .vscode/
 .idea/
 *.swp
+.claude/
